@@ -41,7 +41,10 @@ export default {
             .then(res => {
               console.log(res)
               if (res.data.meta.status === 200) {
+<<<<<<< HEAD
                 localStorage.setItem('itcasst_token', res.data.data.token)
+=======
+>>>>>>> d47c9d17bf34076c250316392e880de4b190a7b0
                 this.$router.push({ name: 'home' })
               } else {
                 this.$message({

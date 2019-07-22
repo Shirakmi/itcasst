@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="home">
     <el-container>
       <el-aside width="auto">
@@ -118,4 +119,15 @@ export default {
     color: white;
   }
 }
+=======
+    <div class="home">首页</div>
+</template>
+<script>
+export default {
+
+}
+</script>
+<style lang="less" scoped>
+
+>>>>>>> d47c9d17bf34076c250316392e880de4b190a7b0
 </style>

@@ -6,10 +6,13 @@ import Login from '@/views/login.vue'
 
 import Home from '@/views/Home.vue'
 
+<<<<<<< HEAD
 import Welcome from '@/views/welcome.vue'
 
 import Users from '@/views/users/users.vue'
 
+=======
+>>>>>>> d47c9d17bf34076c250316392e880de4b190a7b0
 Vue.use(VueRouter)
 
 var router = new VueRouter({
@@ -17,9 +20,13 @@ var router = new VueRouter({
     {
       name: 'default',
       path: '/',
+<<<<<<< HEAD
       redirect: {
         name: 'login'
       }
+=======
+      redirect: { name: 'login' }
+>>>>>>> d47c9d17bf34076c250316392e880de4b190a7b0
     },
     {
       name: 'login',
@@ -29,6 +36,7 @@ var router = new VueRouter({
     {
       name: 'home',
       path: '/home',
+<<<<<<< HEAD
       component: Home,
       redirect: {
         name: 'welcome'
@@ -45,6 +53,9 @@ var router = new VueRouter({
           component: Users
         }
       ]
+=======
+      component: Home
+>>>>>>> d47c9d17bf34076c250316392e880de4b190a7b0
     }
   ]
 })
